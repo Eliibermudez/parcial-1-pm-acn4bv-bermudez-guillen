@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">App-Campus</string>
+    <string name="app_name">Campus Estudiantil</string>
+    <string name="bienvenido_text">Bienvenido al campus estudiantil</string>
+    <string name="campus_estudiantil">Campus estudiantil</string>
+    <string name="mensaje_login">Todo lo que necesitas en un sólo lugar</string>
+    <string name="ingresar">Ingresar</string>
 </resources>
