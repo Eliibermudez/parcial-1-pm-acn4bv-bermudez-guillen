@@ -5,4 +5,6 @@
     <string name="mensaje_login">Todo lo que necesitas en un sólo lugar</string>
     <string name="ingresar">Ingresar</string>
     <string name="logo_campus">Logo Campus</string>
+    <string name="ejemplo_home">Ejemplo de Home</string>
+    <string name="bienvenido_home">Bienvenido al Home</string>
 </resources>

@@ -10,50 +10,52 @@
         android:id="@+id/contenedorLogin"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:gravity="center"
-        android:padding="20dp"
 
-        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.498">
 
         <ImageView
             android:layout_width="120dp"
             android:layout_height="120dp"
-            android:src="@drawable/logo_campus_estudiantil"
+            android:layout_marginBottom="16dp"
             android:contentDescription="@string/logo_campus"
-            android:layout_marginBottom="16dp"/>
+            android:src="@drawable/logo_campus_estudiantil" />
 
         <TextView
             android:id="@+id/txtTitulo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
             android:text="@string/campus_estudiantil"
-            android:textSize="24sp"
-            android:textStyle="bold"
             android:textColor="#000000"
-            android:layout_marginBottom="8dp"/>
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/txtDescripcion"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/mensaje_login"
-            android:textSize="14sp"
-            android:textColor="#666666"
+            android:layout_marginBottom="20dp"
             android:gravity="center"
-            android:layout_marginBottom="20dp"/>
+            android:text="@string/mensaje_login"
+            android:textColor="#666666"
+            android:textSize="14sp" />
 
         <Button
             android:id="@+id/btnIngresar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/ingresar"
-            android:textColor="#FFFFFF"
             android:backgroundTint="#1976D2"
-            android:padding="10dp"/>
+            android:padding="10dp"
+            android:text="@string/ingresar"
+            android:textColor="#FFFFFF" />
 
     </LinearLayout>
 
