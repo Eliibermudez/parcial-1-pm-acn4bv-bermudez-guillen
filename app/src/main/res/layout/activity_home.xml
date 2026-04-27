@@ -86,6 +86,55 @@
 
         </LinearLayout>
 
+        <!-- Card "Grupos de trabajo" -->
+
+        <LinearLayout
+            android:id="@+id/cardGrupos"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/bg_card"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="14dp">
+
+            <TextView
+                android:id="@+id/iconGrupos"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:background="@drawable/bg_icon_purple"
+                android:gravity="center"
+                android:text="@string/icono_grupos"
+                android:textSize="26sp" />
+
+            <LinearLayout
+                android:id="@+id/contenedorTextosGrupos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="14dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txtGrupos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/grupos_trabajo"
+                    android:textColor="#222222"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtDetalleGrupos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/detalle_grupos"
+                    android:textColor="#666666"
+                    android:textSize="13sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
