@@ -11,4 +11,10 @@
     <string name="icono_materias">📖</string>
     <string name="mis_materias">Mis materias</string>
     <string name="detalle_materias">Ver tus materias y detalles</string>
+
+    <string name="icono_grupos">👥</string>
+    <string name="grupos_trabajo">Grupos de trabajo</string>
+    <string name="detalle_grupos">Encuentra o crea tu grupo</string>
+
+    <string name="titulo_materia">Mis materias</string>
 </resources>
