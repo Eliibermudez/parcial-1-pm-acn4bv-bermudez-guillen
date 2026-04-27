@@ -11,4 +11,6 @@
     <string name="icono_materias">📖</string>
     <string name="mis_materias">Mis materias</string>
     <string name="detalle_materias">Ver tus materias y detalles</string>
+    <string name="titulo_materia">Mis materias</string>
+
 </resources>
