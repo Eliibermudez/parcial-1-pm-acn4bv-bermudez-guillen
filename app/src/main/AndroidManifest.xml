@@ -15,7 +15,7 @@
             android:name=".GruposActivity"
             android:exported="false" />
         <activity
-            android:name=".MateriaActivity"
+            android:name=".MateriasActivity"
             android:exported="false" />
         <activity
             android:name=".HomeActivity"

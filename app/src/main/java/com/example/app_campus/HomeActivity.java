@@ -9,11 +9,19 @@ import androidx.appcompat.app.AppCompatActivity;
 public class HomeActivity extends AppCompatActivity {
 
     private LinearLayout cardGrupos;
+    private LinearLayout cardMaterias;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
+
+        cardMaterias = findViewById(R.id.cardMaterias);
+
+        cardMaterias.setOnClickListener(v -> {
+            Intent intent = new Intent(HomeActivity.this, MateriasActivity.class);
+            startActivity(intent);
+        });
 
         cardGrupos = findViewById(R.id.cardGrupos);
 
