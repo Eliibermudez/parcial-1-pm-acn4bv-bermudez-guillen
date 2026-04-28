@@ -16,5 +16,23 @@
     <string name="grupos_trabajo">Grupos de trabajo</string>
     <string name="detalle_grupos">Encuentra o crea tu grupo</string>
 
+    <!-- Pantalla Mis materias -->
     <string name="titulo_materia">Mis materias</string>
+
+    <!-- Pantalla Grupos -->
+    <string name="titulo_grupos">Grupos de trabajo</string>
+    <string name="crear_grupo">Crear grupo</string>
+    <string name="buscar_grupos">Buscar grupos</string>
+    <string name="mis_grupos">Mis grupos</string>
+
+    <!-- Simulación de grupos -->
+    <string name="grupo_base_datos">Parcial 1 - Plataformas de Desarrollo</string>
+    <string name="grupo_base_datos_detalle">Faltan 2 integrantes</string>
+    <string name="grupo_programacion">Parcial 1 -  Base de Datos III</string>
+    <string name="grupo_programacion_detalle">Falta 1 integrante</string>
+    <string name="grupo_estado_abierto">Abierto</string>
+
+    <!-- Simulación de creación de grupo creado dinámicamente -->
+    <string name="grupo_creado_titulo">Parcial 1 - Aplicaciones Móviles</string>
+    <string name="grupo_creado_detalle">Faltan 2 integrantes</string>
 </resources>
