@@ -46,11 +46,19 @@ public class GruposActivity extends AppCompatActivity {
 
         TextView detalleGrupo = new TextView(this);
         detalleGrupo.setText(getString(R.string.grupo_creado_detalle));
-        detalleGrupo.setTextSize(13);
+        detalleGrupo.setTextSize(12);
         detalleGrupo.setTextColor(0xFF666666);
+
+        TextView estadoGrupo = new TextView(this);
+        estadoGrupo.setText(getString(R.string.grupo_estado_abierto));
+        estadoGrupo.setTextSize(12);
+        estadoGrupo.setTextColor(0xFF2E7D32);
+        estadoGrupo.setTypeface(null, android.graphics.Typeface.BOLD);
+        estadoGrupo.setPadding(0, 12, 0, 0);
 
         cardGrupo.addView(tituloGrupo);
         cardGrupo.addView(detalleGrupo);
+        cardGrupo.addView(estadoGrupo);
 
         contenedorListaGrupos.addView(cardGrupo);
     }
