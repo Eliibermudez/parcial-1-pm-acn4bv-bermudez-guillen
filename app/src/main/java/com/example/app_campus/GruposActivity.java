@@ -10,7 +10,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class GruposActivity extends AppCompatActivity {
 
-    private Button btnCrearGrupo;
     private LinearLayout contenedorListaGrupos;
 
     @Override
@@ -18,7 +17,7 @@ public class GruposActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_grupos);
 
-        btnCrearGrupo = findViewById(R.id.btnCrearGrupo);
+        Button btnCrearGrupo = findViewById(R.id.btnCrearGrupo);
         contenedorListaGrupos = findViewById(R.id.contenedorListaGrupos);
 
         btnCrearGrupo.setOnClickListener(v -> crearGrupoDinamico());
