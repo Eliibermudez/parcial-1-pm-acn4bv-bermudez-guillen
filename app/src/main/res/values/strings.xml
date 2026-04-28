@@ -35,4 +35,5 @@
     <!-- Simulación de creación de grupo creado dinámicamente -->
     <string name="grupo_creado_titulo">Parcial 1 - Aplicaciones Móviles</string>
     <string name="grupo_creado_detalle">Faltan 2 integrantes</string>
+    <string name="agregar_materia">Agregar Materia</string>
 </resources>
