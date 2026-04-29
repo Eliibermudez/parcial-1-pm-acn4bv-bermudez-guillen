@@ -37,4 +37,8 @@
     <string name="grupo_creado_titulo">Parcial 1 - Aplicaciones Móviles</string>
     <string name="grupo_creado_detalle">Faltan 2 integrantes</string>
     <string name="agregar_materia">Agregar Materia</string>
+    <string name="materia_i">Programación I</string>
+    <string name="prog_info">Comisión A - Lunes 18hs</string>
+    <string name="materia_ii">Base de Datos</string>
+    <string name="db_info">Comisión B - Miércoles 20hs</string>
 </resources>
