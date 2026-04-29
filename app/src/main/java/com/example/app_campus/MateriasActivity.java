@@ -2,7 +2,6 @@ package com.example.app_campus;
 
 import android.graphics.Typeface;
 import android.os.Bundle;
-import android.view.Gravity;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.LinearLayout;
@@ -16,16 +15,16 @@ public class MateriasActivity extends AppCompatActivity {
     private LinearLayout listaMaterias;
 
     String[] materias = {
-            "Programación I",
-            "Base de Datos",
             "Matemática",
+            "Aplicaciones Móviles",
+            "Java II",
             "Arquitectura de Computadoras",
-            "Aplicaciones Móviles"
+            "Sistemas Operativos"
     };
 
-    int index = 0;
+    int index = 2;
     int MAX_INICIAL = 2;
-    int MAX_TOTAL = 5;
+    int MAX_TOTAL = materias.length;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,17 +34,12 @@ public class MateriasActivity extends AppCompatActivity {
         listaMaterias = findViewById(R.id.layoutListaMaterias);
         Button btnAgregar = findViewById(R.id.btnAgregar);
 
-        for (int i = 0; i < MAX_INICIAL; i++) {
-            agregarCardMateria(materias[index]);
-            index++;
-        }
 
         btnAgregar.setOnClickListener(v -> agregarMateria());
     }
-
     private void agregarMateria() {
 
-        if (index >= MAX_TOTAL) {
+        if (index >= materias.length) {
             Toast.makeText(this, "Ya agregaste todas las materias", Toast.LENGTH_SHORT).show();
             return;
         }
@@ -60,36 +54,16 @@ public class MateriasActivity extends AppCompatActivity {
     private void agregarCardMateria(String nombreMateria) {
 
         LinearLayout card = new LinearLayout(this);
-        card.setOrientation(LinearLayout.HORIZONTAL);
-        card.setPadding(24, 20, 24, 20);
+        card.setOrientation(LinearLayout.VERTICAL);
+        card.setPadding(32, 32, 32, 32);
         card.setBackgroundResource(R.drawable.bg_card);
-        card.setGravity(Gravity.CENTER_VERTICAL);
 
         LinearLayout.LayoutParams paramsCard = new LinearLayout.LayoutParams(
                 ViewGroup.LayoutParams.MATCH_PARENT,
-                180
-        );
-        paramsCard.setMargins(0, 0, 0, 20);
-        card.setLayoutParams(paramsCard);
-
-        TextView icono = new TextView(this);
-        icono.setText("📘");
-        icono.setTextSize(26);
-        icono.setGravity(Gravity.CENTER);
-
-        LinearLayout.LayoutParams paramsIcono = new LinearLayout.LayoutParams(120, 120);
-        icono.setLayoutParams(paramsIcono);
-        icono.setBackgroundColor(0xFFE0D7FF);
-
-        LinearLayout contenedorTexto = new LinearLayout(this);
-        contenedorTexto.setOrientation(LinearLayout.VERTICAL);
-
-        LinearLayout.LayoutParams paramsTexto = new LinearLayout.LayoutParams(
-                ViewGroup.LayoutParams.WRAP_CONTENT,
                 ViewGroup.LayoutParams.WRAP_CONTENT
         );
-        paramsTexto.setMargins(20, 0, 0, 0);
-        contenedorTexto.setLayoutParams(paramsTexto);
+        paramsCard.setMargins(0, 0, 0, 24);
+        card.setLayoutParams(paramsCard);
 
         TextView titulo = new TextView(this);
         titulo.setText(nombreMateria);
@@ -100,13 +74,17 @@ public class MateriasActivity extends AppCompatActivity {
         TextView detalle = new TextView(this);
         detalle.setText("Pendiente de horario");
         detalle.setTextSize(13);
-        detalle.setTextColor(0xFF666666);
+        detalle.setTextColor(0xFF555555);
 
-        contenedorTexto.addView(titulo);
-        contenedorTexto.addView(detalle);
+        LinearLayout.LayoutParams paramsDetalle = new LinearLayout.LayoutParams(
+                ViewGroup.LayoutParams.WRAP_CONTENT,
+                ViewGroup.LayoutParams.WRAP_CONTENT
+        );
+        paramsDetalle.setMargins(0, 8, 0, 0);
+        detalle.setLayoutParams(paramsDetalle);
 
-        card.addView(icono);
-        card.addView(contenedorTexto);
+        card.addView(titulo);
+        card.addView(detalle);
 
         listaMaterias.addView(card);
 
