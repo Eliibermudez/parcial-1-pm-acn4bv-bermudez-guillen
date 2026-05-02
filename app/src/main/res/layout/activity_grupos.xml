@@ -28,11 +28,12 @@
         android:id="@+id/contenedorTabs"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_margin="20dp"
+        android:layout_margin="@dimen/margin_screen"
         android:orientation="horizontal"
         app:layout_constraintTop_toBottomOf="@id/tituloGrupos"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent">
+        app:layout_constraintEnd_toEndOf="parent"
+        android:padding="@dimen/padding_small">
 
         <TextView
             android:id="@+id/tabBuscarGrupos"
@@ -40,7 +41,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center"
-            android:padding="10dp"
+            android:padding="@dimen/padding_small"
             android:text="@string/buscar_grupos"
             android:background="@color/colorPrimary"
             android:textColor="@color/colorTextButton"
@@ -53,7 +54,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center"
-            android:padding="10dp"
+            android:padding="@dimen/padding_small"
             android:text="@string/mis_grupos"
             android:textColor="@color/colorSub"
             android:textSize="14sp" />
@@ -65,9 +66,9 @@
         android:id="@+id/scrollGrupos"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginBottom="12dp"
+        android:layout_marginStart="@dimen/margin_screen"
+        android:layout_marginEnd="@dimen/margin_screen"
+        android:layout_marginBottom="@dimen/margin_between_cards"
         android:fillViewport="true"
         app:layout_constraintTop_toBottomOf="@id/contenedorTabs"
         app:layout_constraintBottom_toTopOf="@id/btnCrearGrupo"
@@ -85,17 +86,17 @@
                 android:id="@+id/cardGrupoBaseDatos"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="12dp"
+                android:layout_marginBottom="@dimen/margin_between_cards"
                 android:background="@drawable/bg_card"
                 android:textColor="@color/colorTextButton"
                 android:orientation="vertical"
-                android:padding="16dp">
+                android:padding="@dimen/padding_card">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/grupo_base_datos"
-                    android:textColor="#222222"
+                    android:textColor="@color/textPrimary"
                     android:textSize="16sp"
                     android:textStyle="bold" />
 
@@ -126,13 +127,13 @@
                 android:layout_marginBottom="12dp"
                 android:background="@drawable/bg_card"
                 android:orientation="vertical"
-                android:padding="16dp">
+                android:padding="@dimen/padding_card">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/grupo_programacion"
-                    android:textColor="#222222"
+                    android:textColor="@color/textPrimary"
                     android:textSize="16sp"
                     android:textStyle="bold" />
 
@@ -163,10 +164,10 @@
         android:id="@+id/btnCrearGrupo"
         android:layout_width="320dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginBottom="20dp"
-        android:background="@color/colorPrimary"
+        android:layout_marginStart="@dimen/margin_screen"
+        android:layout_marginEnd="@dimen/margin_screen"
+        android:layout_marginBottom="@dimen/margin_button_bottom"
+        android:background="@drawable/bg_button"
         android:text="@string/crear_grupo"
         android:textColor="@color/colorTextButton"
         app:layout_constraintBottom_toBottomOf="parent"

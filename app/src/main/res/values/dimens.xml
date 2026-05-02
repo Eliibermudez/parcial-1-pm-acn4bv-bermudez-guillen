@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="space_xs">4dp</dimen>
+    <dimen name="space_sm">8dp</dimen>
+    <dimen name="space_md">16dp</dimen>
+    <dimen name="space_lg">20dp</dimen>
+    <dimen name="space_xl">32dp</dimen>
+
+    <dimen name="padding_small">10dp</dimen>
+    <dimen name="padding_medium">14dp</dimen>
+    <dimen name="padding_card">16dp</dimen>
+    <dimen name="padding_large">20dp</dimen>
+
+    <dimen name="margin_screen">20dp</dimen>
+    <dimen name="margin_between_cards">12dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_button_bottom">20dp</dimen>
+
+    <dimen name="text_small">12sp</dimen>
+    <dimen name="text_medium">13sp</dimen>
+    <dimen name="text_regular">14sp</dimen>
+    <dimen name="text_large">16sp</dimen>
+    <dimen name="text_title">18sp</dimen>
+    <dimen name="text_big">24sp</dimen>
+
+    <dimen name="card_height">85dp</dimen>
+    <dimen name="icon_size">55dp</dimen>
+    <dimen name="logo_size">120dp</dimen>
+    <dimen name="topbar_height">70dp</dimen>
+
+    <dimen name="button_radius">16dp</dimen>
+
+</resources>
