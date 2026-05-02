@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F8F3FA"
+    android:background="@color/colorBackground"
     tools:context=".GruposActivity">
 
     <!-- Barra superior título -->
@@ -13,10 +13,10 @@
         android:id="@+id/tituloGrupos"
         android:layout_width="0dp"
         android:layout_height="70dp"
-        android:background="#5B45D9"
+        android:background="@color/colorPrimary"
         android:gravity="center"
         android:text="@string/titulo_grupos"
-        android:textColor="#FFFFFF"
+        android:textColor="@color/textWhite"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintTop_toTopOf="parent"
@@ -42,7 +42,8 @@
             android:gravity="center"
             android:padding="10dp"
             android:text="@string/buscar_grupos"
-            android:textColor="#5B45D9"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/colorTextButton"
             android:textSize="14sp"
             android:textStyle="bold" />
 
@@ -54,7 +55,7 @@
             android:gravity="center"
             android:padding="10dp"
             android:text="@string/mis_grupos"
-            android:textColor="#666666"
+            android:textColor="@color/colorSub"
             android:textSize="14sp" />
 
     </LinearLayout>
@@ -86,6 +87,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="12dp"
                 android:background="@drawable/bg_card"
+                android:textColor="@color/colorTextButton"
                 android:orientation="vertical"
                 android:padding="16dp">
 
@@ -102,7 +104,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="4dp"
                     android:text="@string/grupo_base_datos_detalle"
-                    android:textColor="#555555"
+                    android:textColor="@color/colorSub"
                     android:textSize="13sp" />
 
                 <TextView
@@ -110,7 +112,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
                     android:text="@string/grupo_estado_abierto"
-                    android:textColor="#2E7D32"
+                    android:textColor="@color/colorSucces"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -139,7 +141,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="4dp"
                     android:text="@string/grupo_programacion_detalle"
-                    android:textColor="#555555"
+                    android:textColor="@color/colorSub"
                     android:textSize="13sp" />
 
                 <TextView
@@ -147,7 +149,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
                     android:text="@string/grupo_estado_cerrado"
-                    android:textColor="#C62828"
+                    android:textColor="@color/colorDanger"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -164,9 +166,9 @@
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="20dp"
-        android:backgroundTint="#5B45D9"
+        android:background="@color/colorPrimary"
         android:text="@string/crear_grupo"
-        android:textColor="#FFFFFF"
+        android:textColor="@color/colorTextButton"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />

@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F8F3FA"
+    android:background="@color/colorBackground"
     tools:context=".HomeActivity">
 
     <!-- Barra superior título -->
@@ -13,10 +13,10 @@
         android:id="@+id/tituloHome"
         android:layout_width="0dp"
         android:layout_height="70dp"
-        android:background="#5B45D9"
+        android:background="@color/colorPrimary"
         android:gravity="center"
         android:text="@string/titulo_home"
-        android:textColor="#FFFFFF"
+        android:textColor="@color/textWhite"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintTop_toTopOf="parent"
@@ -70,7 +70,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/mis_materias"
-                    android:textColor="#222222"
+                    android:textColor="@color/colorTextApp"
                     android:textSize="16sp"
                     android:textStyle="bold" />
 
@@ -79,7 +79,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/detalle_materias"
-                    android:textColor="#666666"
+                    android:textColor="@color/colorSub"
                     android:textSize="13sp" />
 
             </LinearLayout>
@@ -119,7 +119,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/grupos_trabajo"
-                    android:textColor="#222222"
+                    android:textColor="@color/colorTextApp"
                     android:textSize="16sp"
                     android:textStyle="bold" />
 
@@ -128,7 +128,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/detalle_grupos"
-                    android:textColor="#666666"
+                    android:textColor="@color/colorSub"
                     android:textSize="13sp" />
 
             </LinearLayout>
