@@ -1,8 +1,5 @@
 <resources>
     <string name="app_name">Campus Estudiantil</string>
-    <string name="bienvenido_text">Bienvenido al campus estudiantil</string>
-    <string name="campus_estudiantil">Campus estudiantil</string>
-    <string name="mensaje_login">Todo lo que necesitas en un sólo lugar</string>
     <string name="ingresar">Ingresar</string>
     <string name="logo_campus">Logo Campus</string>
 
@@ -36,6 +33,8 @@
     <!-- Simulación de creación de grupo creado dinámicamente -->
     <string name="grupo_creado_titulo">Parcial 1 - Aplicaciones Móviles</string>
     <string name="grupo_creado_detalle">Faltan 2 integrantes</string>
+
+    <!-- Materias -->
     <string name="agregar_materia">Agregar Materia</string>
     <string name="materia_i">Programación I</string>
     <string name="prog_info">Comisión A - Lunes 18hs</string>
