@@ -53,12 +53,13 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:layout_marginStart="@dimen/space_sm"
             android:gravity="center"
             android:padding="@dimen/padding_small"
             android:text="@string/mis_grupos"
-            android:textColor="@color/colorSub"
-            android:textSize="14sp" />
-
+            android:background="@color/colorPrimary"
+            android:textColor="@color/colorTextButton"
+            android:textSize="@dimen/text_regular" />
     </LinearLayout>
 
     <!-- Lista scrolleable -->
@@ -105,7 +106,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="4dp"
                     android:text="@string/grupo_base_datos_detalle"
-                    android:textColor="@color/colorSub"
+                    android:textColor="@color/textMuted"
                     android:textSize="13sp" />
 
                 <TextView
@@ -113,7 +114,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
                     android:text="@string/grupo_estado_abierto"
-                    android:textColor="@color/colorSucces"
+                    android:textColor="@color/colorSuccess"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -142,7 +143,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="4dp"
                     android:text="@string/grupo_programacion_detalle"
-                    android:textColor="@color/colorSub"
+                    android:textColor="@color/textMuted"
                     android:textSize="13sp" />
 
                 <TextView

@@ -52,7 +52,7 @@
                     android:layout_width="131dp"
                     android:layout_height="wrap_content"
                     android:text="@string/materia_i"
-                    android:textColor="@color/colorTextApp"
+                    android:textColor="@color/textPrimary"
                     android:textSize="16sp"
                     android:textStyle="bold" />
 
@@ -60,7 +60,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/prog_info"
-                    android:textColor="@color/colorSucces"
+                    android:textColor="@color/colorSuccess"
                     android:textSize="13sp" />
 
             </LinearLayout>
@@ -79,14 +79,14 @@
                     android:text="@string/materia_ii"
                     android:textSize="16sp"
                     android:textStyle="bold"
-                    android:textColor="@color/colorTextApp"/>
+                    android:textColor="@color/textPrimary"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/db_info"
                     android:textSize="13sp"
-                    android:textColor="@color/colorSucces"/>
+                    android:textColor="@color/colorSuccess"/>
 
             </LinearLayout>
 
