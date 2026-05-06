@@ -3,8 +3,8 @@
 
     <!-- Fondo violeta ícono -->
 
-    <solid android:color="#EEE9FF" />
-    <corners android:radius="10dp" />
+    <solid android:color="@color/iconPurpleBackground" />
+    <corners android:radius="@dimen/icon_radius" />
 
 </shape>
 

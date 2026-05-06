@@ -25,7 +25,7 @@
     <!-- Simulación de grupos -->
     <string name="grupo_base_datos">Parcial 1 - Programación</string>
     <string name="grupo_base_datos_detalle">Faltan 2 integrantes</string>
-    <string name="grupo_programacion">Parcial 1 -  Base de Datos III</string>
+    <string name="grupo_programacion">Parcial 1 - Base de Datos III</string>
     <string name="grupo_programacion_detalle">Completo</string>
     <string name="grupo_estado_abierto">Abierto</string>
     <string name="grupo_estado_cerrado">Cerrado</string>

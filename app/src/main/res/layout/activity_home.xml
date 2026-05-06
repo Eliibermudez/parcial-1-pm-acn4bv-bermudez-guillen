@@ -7,7 +7,6 @@
     android:background="@color/colorBackground"
     tools:context=".HomeActivity">
 
-    <!-- Barra superior -->
     <TextView
         android:id="@+id/tituloHome"
         android:layout_width="0dp"
@@ -22,7 +21,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    <!-- Contenedor -->
     <LinearLayout
         android:id="@+id/contenedorCards"
         android:layout_width="0dp"
@@ -37,7 +35,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent">
 
-        <!-- Card Materias -->
         <LinearLayout
             android:id="@+id/cardMaterias"
             android:layout_width="match_parent"
@@ -84,7 +81,6 @@
 
         </LinearLayout>
 
-        <!-- Card Grupos -->
         <LinearLayout
             android:id="@+id/cardGrupos"
             android:layout_width="match_parent"

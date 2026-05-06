@@ -3,11 +3,11 @@
 
     <!-- Fondo de la tarjeta -->
 
-    <solid android:color="#FFFFFF" />
-    <corners android:radius="12dp" />
+    <solid android:color="@color/cardBackground" />
+    <corners android:radius="@dimen/card_radius" />
 
     <stroke
-        android:width="1dp"
-        android:color="#E1E4EA" />
+        android:width="@dimen/border_width"
+        android:color="@color/cardBorder" />
 
 </shape>
